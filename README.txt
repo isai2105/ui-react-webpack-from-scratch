@@ -8,3 +8,16 @@ Setup steps:
 
 If you ever wonder why when you write a JSX file you can write it as .js or .jsx ... it is because of the babel-loader
 configured within Webpack.
+
+We needed to add two more loaders:
+
+yarn add style-loader css-loader;
+
+
+yarn add html-loader html-webpack-plugin;
+
+
+After running "yarn build", we can go to the newly generated "dist" folder and open the index.html file.
+Check it is working on the browser.
+
+Note: We could include other loaders such as "scss" loader ("sass" loader) and work with such files.
