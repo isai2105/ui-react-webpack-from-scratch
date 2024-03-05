@@ -1,3 +1,5 @@
+This project is about manually setting Webpack + Babel in a very basic React project
+
 Setup steps:
 
 - Added Webpack dependencies to the repo:
@@ -21,3 +23,4 @@ After running "yarn build", we can go to the newly generated "dist" folder and o
 Check it is working on the browser.
 
 Note: We could include other loaders such as "scss" loader ("sass" loader) and work with such files.
+
